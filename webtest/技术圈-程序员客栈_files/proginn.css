@@ -1,0 +1,198 @@
+@charset "UTF-8";
+a,
+.operate a:hover,
+.operate .active {
+  color: #009fda;
+}
+a:hover,
+.operate a:hover:hover,
+.operate .active:hover,
+a:focus,
+.operate a:hover:focus,
+.operate .active:focus {
+  color: #00b2f3;
+}
+html,
+body {
+  background-color: #f7f7f7;
+}
+body {
+  padding-top: 90px;
+}
+.container {
+  padding: 0;
+}
+.header {
+  /*.menu-container {
+        font-size: 0;
+    }
+    .item {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1;
+    }
+    .top-search {
+        position: relative;
+        input {
+            width: 100%;
+            border-color: transparent;
+            background-color: transparent;
+            padding: 0;
+            height: 100%;
+        }
+        .fa-search {
+            position: absolute;
+            top: 0;
+            right: 30px;
+            opacity: .5;
+            height: 100%;
+            line-height: 44px;
+        }
+    }
+    .right {
+        float: right;
+    }
+    a:hover {
+        text-decoration: none;
+    }*/
+}
+.header .top-search .input > .icon {
+  margin-right: 10px;
+}
+.proginn .form-control {
+  background-color: #f7f9fb;
+}
+.proginn .btn {
+  border: none;
+}
+.proginn .ui.label {
+  position: relative;
+}
+.proginn .ui.modal {
+  bottom: auto;
+  overflow: initial;
+}
+.proginn .topic-list .label-success {
+  background-color: #3595fb;
+}
+.proginn .topic-list .list-group-item {
+  height: 68px;
+}
+.proginn .topic-list .list-group-item .reply-count {
+  background-color: #9bc8ed;
+  padding: 3px;
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+  min-width: 23px;
+  text-align: center;
+}
+.proginn .topic-list .address {
+  margin: 0 5px;
+}
+.proginn .topic-list .meta span {
+  margin-right: 3px;
+}
+.proginn .btn-primary,
+.proginn .order-btn {
+  background-color: #2481e4;
+  border-color: #2481e4;
+}
+.proginn .btn-primary:hover,
+.proginn .order-btn:hover {
+  background-color: #3595fb;
+}
+.proginn .side-profile {
+  padding-bottom: 20px;
+}
+.proginn .side-profile .avatar img {
+  width: 104px;
+  height: 104px;
+  border-radius: 100px;
+}
+.proginn .side-profile .sex {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+}
+.proginn .side-profile .tags a {
+  display: inline-block;
+}
+.proginn .side-profile .order-btn {
+  display: inline-block;
+  width: 174px;
+  padding: 8px 0;
+  border-radius: 0.2857rem;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.proginn .side-profile a:hover {
+  text-decoration: none;
+}
+.proginn .s-label {
+  margin-top: 0.25rem;
+  ont-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: none;
+  text-align: center;
+}
+.proginn .s-label a:hover {
+  text-decoration: none;
+}
+.ui.secondary.vertical.pointing.menu > .item:hover {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.85);
+}
+.share-panel {
+  position: fixed;
+  display: none;
+  z-index: 9;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 49px;
+  line-height: 49px;
+  border-top: 1px solid #f5f5f5;
+  background: #fff;
+}
+.share-panel .contact-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #258fe6;
+  color: #fff;
+  font-size: 16px;
+}
+.share-panel .contact-btn:hover {
+  text-decoration: none;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 15px;
+  }
+  .proginn .topic-list .list-group-item {
+    height: 58px;
+  }
+  #top-menu,
+  .topic-list .meta,
+  .topic .votes,
+  .wap-hidden,
+  .social-share-wrap,
+  .reply-box,
+  .create-topic-topic {
+    display: none;
+  }
+  .share-panel {
+    display: block;
+  }
+}

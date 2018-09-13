@@ -18,10 +18,10 @@ touch README.md
 git init   //初始化git仓库
 git add README.md   可以指定添加文件到暂存区
 git commit -m "first commit"
-git remote add origin http://mobileapi.gree.com:3000/180296/Emall_img.git
+git remote add origin url
 git push -u origin master
 从命令行推送已经创建的仓库
-git remote add origin http://mobileapi.gree.com:3000/180296/Emall_img.git
+git remote add origin url
 git push -u origin master
 
 git branch //查看master分支
@@ -31,14 +31,14 @@ git pull origin develop //从远程develop分支拉取最新版本到本地与�
 
 合并冲突解决： https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840202368c74be33fbd884e71b570f2cc3c0d1dcf000
 
-第一步
+##  第一步
 选择一个合适的地方，创建一个空目录，可以选择放桌面或D盘C盘，建议放非C盘   可以使用cd D: /  切换， 然后再D:
-第二步
+##  第二步
 通过git init命令把这个目录变成Git可以管理的仓库
-第三步
+##  第三步
 git status检查哪些未提交到本地仓库的暂存区
 然后git add .
-第四步
+##  第四步
 git commit -m '这里记录说明'  //-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录
 git remote add origin  url   添加到远程仓库地址
 git checkout 分支名(切换分支) 和git branch(查看当前分支，若在后面加上名称则为创建分支) 创建和切换分支
@@ -46,12 +46,10 @@ git push origin 分支名称如master
 
 
 下载git上的项目
-git clone http://mobileapi.gree.com:3000/180296/Emall_img.git
-
-180298 940917
+git clone url
 
 Git服务器升级到gogs服务器
-网址：http://mobileapi.gree.com:3000/
+网址：
 账户：邮箱号
 密码：出生日格式：YYMMDD
 
