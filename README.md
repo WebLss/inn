@@ -1,5 +1,4 @@
 廖雪峰git教程：https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-格力仓库地址：http://mobileapi.gree.com:3000
 
 #  一安装
 git软件下载地址： https://git-scm.com/download/win
