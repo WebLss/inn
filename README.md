@@ -48,10 +48,6 @@ git push origin 分支名称如master
 下载git上的项目
 git clone url
 
-Git服务器升级到gogs服务器
-网址：
-账户：邮箱号
-密码：出生日格式：YYMMDD
 
 修改远程仓库方法：
 	git remote remove origin
